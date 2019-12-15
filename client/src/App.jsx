@@ -1,5 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import About from './components/about.jsx';
+import Contact from './components/contact.jsx';
+import Portfolio from './components/portfolio.jsx';
+
 
 
 class App extends React.Component {
@@ -14,7 +18,9 @@ class App extends React.Component {
     render () {
         return (
             <div>
-                I did it!!!!!!!!!!!!!!!
+                <About />
+                <Portfolio />
+                <Contact />
             </div>
         )
     }

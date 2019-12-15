@@ -21,9 +21,11 @@
     "webpack": "^4.41.2"
   },
   "devDependencies": {
-    "@babel/preset-env": "^7.7.6",
-    "webpack-cli": "^3.3.10",
     "@babel/core": "^7.7.5",
-    "@babel/plugin-transform-react-jsx": "^7.7.4"
+    "@babel/plugin-transform-react-jsx": "^7.7.4",
+    "@babel/preset-env": "^7.7.6",
+    "css-loader": "^3.3.2",
+    "style-loader": "^1.0.1",
+    "webpack-cli": "^3.3.10"
   }
 }
