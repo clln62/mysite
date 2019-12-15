@@ -1,3 +1,29 @@
-div {
+/* div {
     text-align: center;
+}; */
+#welcome {
+    background: url('https://wallpaperaccess.com/full/6058.jpg');
+    content: '';
+    background-blend-mode: color-burn;
+    filter: drop-shadow(2px 4px 6px black);
+    /* z-index: -1; */
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-position: center center;
+    background-color: rgba(138, 136, 136, 0.375);
+    /* background-size: cover; */
+    background-attachment: fixed; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: aliceblue; 
+    /* border-radius: 0%; */
+}
+
+#overall {
+    text-align: center;
+    min-width: 100px;
+    background: url('https://cdn.hipwallpaper.com/i/17/77/ywLsJv.jpg');
 }
