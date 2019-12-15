@@ -5,7 +5,7 @@ const About = (props) => {
     return (
         <div>
             <h1>This is where the about will go.</h1>
-            <img src='https://collinpersonal.s3.us-east-2.amazonaws.com/Collin.jpg'></img>
+            <img id='photo' src='https://collinpersonal.s3.us-east-2.amazonaws.com/Collin.jpg'></img>
             <p>
                 Before a career as an Engineer, Collin has had an eclectic life from debuting his 
                 plays in Times Square and shooting films in Central Park, leading a marketing 
