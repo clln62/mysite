@@ -43,11 +43,20 @@
     z-index: -15;
 }
 
-#photo {
+.photo {
     border-radius: 8px;
-    width: 500px;
-
+    width: 375px;
+    padding: 20px;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+/* .photos {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} */
 
 
 /* Style The Dropdown Button */
@@ -100,4 +109,13 @@
   /* Change the background color of the dropdown button when the dropdown content is shown */
   .dropdown:hover .dropbtn {
     /* background-color: #3e8e41; */
+  }
+
+  .title {
+      text-align: center;
+      color: rgb(249, 149, 132);
+  }
+
+  .text {
+    font-family: fantasy;
   }
