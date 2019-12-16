@@ -6,7 +6,7 @@ import Portfolio from './components/portfolio.jsx';
 import Welcome from './components/welcome.jsx';
 import ReactPageScroller from "react-page-scroller";
 // import { Pager } from "react-bootstrap";
-import Navbar from './components/navbar.jsx';
+// import Navbar from './components/navbar.jsx';
 
 
 
@@ -38,8 +38,7 @@ class App extends React.Component {
 
     render () {
         return (
-            <div id='overall'>
-                <Navbar />
+            <div id='overall'>          
                 <ReactPageScroller  pageOnChange={this.handlePageChange}
                                     customPageNumber={this.state.currentPage}>
                     <Welcome />

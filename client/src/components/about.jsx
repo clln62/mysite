@@ -1,9 +1,11 @@
 import React from 'react';
+import Navbar from './navbar.jsx';
 
 
 const About = (props) => {
     return (
         <div>
+            <Navbar />
             <h1>This is where the about will go.</h1>
             <img id='photo' src='https://collinpersonal.s3.us-east-2.amazonaws.com/Collin.jpg'></img>
             <p>
