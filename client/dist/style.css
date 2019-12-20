@@ -196,3 +196,26 @@
     background-size: cover;
     background-repeat: no-repeat;
   }
+
+  #Linkedin {
+      background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/600px-LinkedIn_logo_initials.png') no-repeat;
+      background-size: 100%;
+      /* color: white; */
+      padding: 16px;
+      /* font-size: 50%; */
+      border: none;
+      cursor: pointer;
+      position: relative;
+      bottom: 100%;
+  }
+
+  #Github {
+      background: url('http://pngimg.com/uploads/github/github_PNG20.png') no-repeat;
+      background-size: 100%;
+      /* color: white; */
+      padding: 16px;
+      /* font-size: 50%; */
+      border: none;
+      cursor: pointer;
+      position: relative;
+  }

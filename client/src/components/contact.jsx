@@ -12,6 +12,8 @@ const Contact = (props) => {
                 Message: <input type='text' name='Message'></input>
                 <button type='submit'>Submit</button>
             </form>
+            <a id='Linkedin' href='https://www.linkedin.com/in/collin-fairlie-b9254b45/' target="_blank"></a>
+            <a id='Github' href='https://github.com/clln62' target='_blank'></a>
         </div>
     )
 }

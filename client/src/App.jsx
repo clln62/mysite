@@ -48,7 +48,7 @@ class App extends React.Component {
                     </div>
                     <div className="fixed-bg bg-4">
                         <Route path='contact' Component={Contact} exact />
-                        {/* <Contact /> */}
+                        <Contact />
                     </div>
                 </div>
             </div>
