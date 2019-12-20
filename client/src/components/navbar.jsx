@@ -7,10 +7,10 @@ const Navbar = (props) => {
         <button className="dropbtn"> 
         </button>
         <div className="dropdown-content">
-            <a href="#">Welcome</a>
-            <a href="#">About</a>
-            <a href="#">Portfolio</a>
-            <a href='#'>Contact</a>
+            <a href="/welcome">Welcome</a>
+            <a href="/about">About</a>
+            <a href="/portfolio">Portfolio</a>
+            <a href='/contact'>Contact</a>
         </div>
         </div>
     )
