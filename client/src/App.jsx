@@ -13,8 +13,12 @@ class App extends React.Component {
         super(props);
         this.state = {
             currentPage: null,
+            name: '',
+            email: '',
+            message: ''
         }
         this.refCallback = this.refCallback.bind(this);
+        this.onChangeContact = this.onChangeContact.bind(this);
     }
 
     refCallback(node) {
@@ -22,6 +26,12 @@ class App extends React.Component {
             node.focus();
         }
     }
+
+    onChangeContact(event){
+        this.setState({
+          [event.target.name]: event.target.value,
+        })
+      }   
 
 
     render () {
@@ -36,7 +46,7 @@ class App extends React.Component {
                 <div className="wrapper">
                     <div className="fixed-bg bg-1">
                         <Route path='/welcome' Component={Welcome} exact />
-                        {/* <Welcome path='/welcome'/> */}
+                        <Welcome path='/welcome'/>
                     </div>
                     <div className="fixed-bg bg-2">
                         <Route path='/about' Component={About} exact />
@@ -44,11 +54,11 @@ class App extends React.Component {
                     </div>
                     <div className="fixed-bg bg-3">
                         <Route path='/portfolio' Component={Portfolio} exact />
-                        {/* <Portfolio /> */}
+                        <Portfolio />
                     </div>
                     <div className="fixed-bg bg-4">
                         <Route path='contact' Component={Contact} exact />
-                        <Contact />
+                        <Contact onChangeContact={this.onChangeContact} name={this.state.name} email={this.state.email} message={this.state.message}/>
                     </div>
                 </div>
             </div>

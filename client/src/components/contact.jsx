@@ -7,9 +7,9 @@ const Contact = (props) => {
             <Navbar />
             <h1>Have a question or want to work together?</h1>
             <form>
-                Name: <input type='text' name='Name'></input>
-                Email: <input type='text' name='Email'></input>
-                Message: <input type='text' name='Message'></input>
+                Name: <input type='text' name='name' value={props.name} onChange={props.onChangeContact}></input>
+                Email: <input type='text' name='email' value={props.email} onChange={props.onChangeContact}></input>
+                Message: <input type='text' name='message' value={props.message} onChange={props.onChangeContact}></input>
                 <button type='submit'>Submit</button>
             </form>
             <a id='Linkedin' href='https://www.linkedin.com/in/collin-fairlie-b9254b45/' target="_blank"></a>
