@@ -14,18 +14,24 @@ class App extends React.Component {
         this.state = {
             currentPage: null,
         }
+        this.refCallback = this.refCallback.bind(this);
     }
 
+    refCallback(node) {
+        node.onmouseover= () => {
+            node.focus();
+        }
+    }
 
 
     render () {
         return (
             <div id="Homepage">
                 <nav>
-                    <Link to='/welcome'>Welcome</Link>
-                    <Link to='/about'>About</Link>
-                    <Link to='/portfolio'>Portfolio</Link>
-                    <Link to='/contact'>Contact</Link>
+                    <Link to='/welcome' innerRef={this.refCallback}>Welcome</Link>
+                    <Link to='/about' innerRef={this.refCallback}>About</Link>
+                    <Link to='/portfolio' innerRef={this.refCallback}>Portfolio</Link>
+                    <Link to='/contact' innerRef={this.refCallback}>Contact</Link>
                 </nav>
                 <div className="wrapper">
                     <div className="fixed-bg bg-1">
