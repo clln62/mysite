@@ -36,7 +36,7 @@ class App extends React.Component {
 
     render () {
         return (
-            <div id="Homepage">
+            <div className="Homepage">
                 <nav>
                     <Link to='/welcome' innerRef={this.refCallback}>Welcome</Link>
                     <Link to='/about' innerRef={this.refCallback}>About</Link>

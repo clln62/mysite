@@ -181,7 +181,7 @@
   }
 
 
-  #Homepage{
+  .Homepage{
     background: url("https://collinpersonal.s3.us-east-2.amazonaws.com/myBackground.png") no-repeat center center fixed;
     content: '';
     background-blend-mode: color-burn;
