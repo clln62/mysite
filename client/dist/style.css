@@ -113,7 +113,8 @@
 
   .title {
       text-align: center;
-      color: rgb(249, 149, 132);
+      color: rgb(114, 59, 49);
+      font-size: 325%;
   }
 
   .text {
@@ -207,8 +208,8 @@
       /* font-size: 50%; */
       border: none;
       cursor: pointer;
-      position: relative;
-      bottom: 100%;
+      position: absolute;
+      bottom: 0;
   }
 
   #Github {
@@ -219,5 +220,10 @@
       /* font-size: 50%; */
       border: none;
       cursor: pointer;
-      position: relative;
+      position: absolute;
+      bottom: 0;
+  }
+
+  #Contact {
+    position: relative;
   }

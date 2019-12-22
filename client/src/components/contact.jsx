@@ -3,7 +3,7 @@ import Navbar from './navbar.jsx';
 
 const Contact = (props) => {
     return (
-        <div>
+        <div id="Contact">
             <Navbar />
             <h1>Have a question or want to work together?</h1>
             <form action="mailto:collin.fairlie@gmail.com" method="post" enctype="text/plain">
