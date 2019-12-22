@@ -6,7 +6,7 @@ const Contact = (props) => {
         <div>
             <Navbar />
             <h1>Have a question or want to work together?</h1>
-            <form>
+            <form action="mailto:collin.fairlie@gmail.com" method="post" enctype="text/plain">
                 Name: <input type='text' name='name' value={props.name} onChange={props.onChangeContact}></input>
                 Email: <input type='text' name='email' value={props.email} onChange={props.onChangeContact}></input>
                 Message: <input type='text' name='message' value={props.message} onChange={props.onChangeContact}></input>

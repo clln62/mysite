@@ -8,8 +8,8 @@ const About = (props) => {
             <Navbar />
             <h1 className='title text'>About Me</h1>
             <div className='photos'>
-                <img className='photo' src='https://collinpersonal.s3.us-east-2.amazonaws.com/36684031_10156269046785953_8312068208156737536_o.jpg'></img>
                 <img className='photo' src='https://collinpersonal.s3.us-east-2.amazonaws.com/Collin.jpg'></img>
+                <img className='photo' src='https://collinpersonal.s3.us-east-2.amazonaws.com/36684031_10156269046785953_8312068208156737536_o.jpg'></img>
                 <img className='photo' src='https://collinpersonal.s3.us-east-2.amazonaws.com/F4425ADB-A905-4934-B71E-D339D9B004DC.JPG'></img>
             </div>
             <p className='text'>

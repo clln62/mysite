@@ -44,19 +44,19 @@
 }
 
 .photo {
-    border-radius: 8px;
-    width: 375px;
-    padding: 20px;
-    margin: 20px;
+    /* border-radius: 8px; */
+    width: 26%;
+    padding: 2%;
+    /* margin: 2%;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; */
 }
 
-/* .photos {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-} */
+.photos {
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+}
 
 
 /* Style The Dropdown Button */
@@ -140,8 +140,10 @@
     display: table;
   }
   .fixed-bg h1 {
-    display: table-cell;
-    vertical-align: middle;
+    /* display: table-cell;
+    vertical-align: middle; */
+    text-align: center;
+    padding: 1%;
   }
   .scroll-bg {
     background-color: #1b314f;
@@ -154,11 +156,11 @@
   }
   /* third section */
   .bg-2 {
-    background-image: url('https://live.staticflickr.com/8598/16715030092_9cd1cd1a38_b.jpg');
+    background-image: url('https://netdevicesinfo.site/wp-content/uploads/2019/04/ikea-concept-black-white-wallpaper-ipad.jpg');
   }
   /* fifth section */
   .bg-3 {
-    background-image: url('https://netdevicesinfo.site/wp-content/uploads/2019/04/ikea-concept-black-white-wallpaper-ipad.jpg');
+    background-image: url('https://live.staticflickr.com/8598/16715030092_9cd1cd1a38_b.jpg');
   
   }
   
@@ -166,7 +168,7 @@
     background-image: url('https://c0.wallpaperflare.com/preview/985/976/887/botanical-close-up-dark-green-flora.jpg');
   }
   .oneliner {
-    color: #ae424f;
+    color: #442a2d;
     text-align: -webkit-center;
     -webkit-text-stroke: 2.5px white;
     font-size: 200%;
