@@ -119,6 +119,7 @@
 
   .text {
     font-family: fantasy;
+    color: rgb(114, 59, 49);
   }
 
 
@@ -136,7 +137,8 @@
     background-position: center center;
     height: 100%; 
     width: 100%;
-    color: #ae424f;
+    /* color: #ae424f; */
+    color: rgb(114, 59, 49);
     text-align: center;
     display: table;
   }

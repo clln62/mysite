@@ -6,6 +6,7 @@ const Portfolio = (props) => {
     return (
         <div>
             <Navbar />
+            <h1 className='title text'>Portfolio</h1>
             <img className='photo' src="https://collinpersonal.s3.us-east-2.amazonaws.com/IH1.png"></img>
             <img className='photo' src="https://collinpersonal.s3.us-east-2.amazonaws.com/IH2.png"></img>
             <img className='photo' src="https://collinpersonal.s3.us-east-2.amazonaws.com/IH3.png"></img>
