@@ -1,9 +1,8 @@
-#welcome {
+/* #welcome {
     background: url('https://collinpersonal.s3.us-east-2.amazonaws.com/myBackground.png');
     content: '';
     background-blend-mode: color-burn;
     filter: drop-shadow(2px 4px 6px black);
-    /* z-index: -1; */
     position: absolute;
     top: 0;
     bottom: 0;
@@ -11,23 +10,17 @@
     right: 0;
     background-position: center center;
     background-color: rgba(138, 136, 136, 0.375);
-    /* background-size: cover; */
-    /* background-attachment: fixed;  */
     background-size: cover;
     background-repeat: no-repeat;
     color: aliceblue; 
-    /* border-radius: 0%; */
-    /* height: 100%;
-    width: 100%; */
     z-index: -15;
-}
+} */
 
-#overall {
+/* #overall {
     background: url('https://c0.wallpaperflare.com/preview/985/976/887/botanical-close-up-dark-green-flora.jpg');
     content: '';
     background-blend-mode: color-burn;
     filter: drop-shadow(2px 4px 6px black);
-    /* z-index: -1; */
     position: absolute;
     top: 0;
     bottom: 0;
@@ -35,13 +28,11 @@
     right: 0;
     background-position: center center;
     background-color: rgba(138, 136, 136, 0.375);
-    /* background-size: cover; */
-    /* background-attachment: fixed;  */
     background-size: cover;
     background-repeat: no-repeat;
     color: aliceblue; 
     z-index: -15;
-}
+} */
 
 .photo {
     /* border-radius: 8px; */
@@ -183,8 +174,8 @@
   }
 
 
-  .Homepage{
-    background: url("https://collinpersonal.s3.us-east-2.amazonaws.com/myBackground.png") no-repeat center center fixed;
+  .homepage{
+    /* background: url("https://wallpaperaccess.com/full/6058.jpg") no-repeat center center; */
     content: '';
     background-blend-mode: color-burn;
     filter: drop-shadow(2px 4px 6px black);
@@ -194,12 +185,11 @@
     bottom: 0;
     left: 0;
     right: 0;
-    background-position: center center;
     background-color: rgba(138, 136, 136, 0.375);
-    background-size: cover;
+    /* background-size: cover;
     background-attachment: fixed; 
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
   }
 
   #Linkedin {
@@ -228,4 +218,15 @@
 
   #Contact {
     position: relative;
+  }
+
+  #Resume {
+      background: url('https://www.drupal.org/files/project-images/my-resume.png') no-repeat;
+      background-size: 100%;
+      /* color: white; */
+      padding: 16px;
+      /* font-size: 50%; */
+      border: none;
+      cursor: pointer;
+      position: relative;
   }

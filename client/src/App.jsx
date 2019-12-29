@@ -36,28 +36,28 @@ class App extends React.Component {
 
     render () {
         return (
-            <div className="Homepage">
-                <nav>
+            <div className='homepage'>
+                {/* <nav>
                     <Link to='/welcome' innerRef={this.refCallback}>Welcome</Link>
                     <Link to='/about' innerRef={this.refCallback}>About</Link>
                     <Link to='/portfolio' innerRef={this.refCallback}>Portfolio</Link>
                     <Link to='/contact' innerRef={this.refCallback}>Contact</Link>
-                </nav>
+                </nav> */}
                 <div className="wrapper">
                     <div className="fixed-bg bg-1">
-                        <Route path='/welcome' Component={Welcome} exact />
+                        {/* <Route path='/welcome' Component={Welcome} exact /> */}
                         <Welcome path='/welcome'/>
                     </div>
                     <div className="fixed-bg bg-2">
-                        <Route path='/about' Component={About} exact />
+                        {/* <Route path='/about' Component={About} exact /> */}
                         <About />
                     </div>
                     <div className="fixed-bg bg-3">
-                        <Route path='/portfolio' Component={Portfolio} exact />
+                        {/* <Route path='/portfolio' Component={Portfolio} exact /> */}
                         <Portfolio />
                     </div>
                     <div className="fixed-bg bg-4">
-                        <Route path='contact' Component={Contact} exact />
+                        {/* <Route path='contact' Component={Contact} exact /> */}
                         <Contact onChangeContact={this.onChangeContact} name={this.state.name} email={this.state.email} message={this.state.message}/>
                     </div>
                 </div>
