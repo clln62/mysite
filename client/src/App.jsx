@@ -52,10 +52,10 @@ class App extends React.Component {
                         {/* <Route path='/about' Component={About} exact /> */}
                         <About />
                     </div>
-                    <div className="fixed-bg bg-3">
-                        {/* <Route path='/portfolio' Component={Portfolio} exact /> */}
+                    {/* <div className="fixed-bg bg-3">
+                        <Route path='/portfolio' Component={Portfolio} exact />
                         <Portfolio />
-                    </div>
+                    </div> */}
                     <div className="fixed-bg bg-4">
                         {/* <Route path='contact' Component={Contact} exact /> */}
                         <Contact onChangeContact={this.onChangeContact} name={this.state.name} email={this.state.email} message={this.state.message}/>

@@ -110,7 +110,9 @@
 
   .text {
     font-family: fantasy;
-    color: rgb(114, 59, 49);
+    color: black;
+    opacity: 100%;
+    font-size: larger;
   }
 
 
@@ -150,7 +152,7 @@
   }
   /* third section */
   .bg-2 {
-    background-image: url('https://netdevicesinfo.site/wp-content/uploads/2019/04/ikea-concept-black-white-wallpaper-ipad.jpg');
+    background-image: url('http://getwallpapers.com/wallpaper/full/1/5/f/610492.jpg');
   }
   /* fifth section */
   .bg-3 {
@@ -229,4 +231,11 @@
       border: none;
       cursor: pointer;
       position: relative;
+      float: right;
+  }
+
+  .bio {
+    background:gray;
+    opacity: 85%;
+    padding: 3%;
   }
