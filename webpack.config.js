@@ -1,4 +1,5 @@
 const path = require('path');
+const SRC_DIR = path.join(__dirname, '/client/src');
 
 module.exports = {
   entry: './client/src/App.jsx',
