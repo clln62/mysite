@@ -6,7 +6,7 @@ const About = (props) => {
     return (
         <div>
             <Navbar />
-            <h1 className='title text'>About Me</h1>
+            <h1 className='title'>About Me</h1>
             <a id='Resume' href="https://collinpersonal.s3.us-east-2.amazonaws.com/Collin.Fairlie.Resume.pdf" target='_blank'></a>
             <div className='photos'>
                 <img className='photo' src='https://collinpersonal.s3.us-east-2.amazonaws.com/Collin.jpg'></img>
