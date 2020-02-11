@@ -2,8 +2,8 @@
 
 This project is an opportunity for me to continue my passion in building apps, but also a great way to build a way for others to access my work in one simple location. This is an ongoing, side project that gives me the chance to continue my learning when not working on other applications and studies. 
 
-<img src="./images/siteWelcome.png" height="45%" width="45%"></img>
-<img src="./images/workingAbout.png" height="45%" width="45%"></img><br/>
+<img src="./images/siteWelcome.png" height="75%" width="75%"></img>
+<img src="./images/workingAbout.png" height="75%" width="75%"></img><br/>
 
 
 
