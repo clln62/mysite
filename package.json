@@ -8,7 +8,7 @@
     "start": "nodemon ./server.js",
     "react-dev": "webpack -d --watch"
   },
-  "author": "",
+  "author": "Collin Fairlie",
   "license": "ISC",
   "dependencies": {
     "@babel/preset-react": "^7.7.4",
